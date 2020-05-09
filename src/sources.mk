@@ -10,7 +10,6 @@
 #*****************************************************************************
 
 # Add your Source files to this variable
-SOURCES = interrupts_msp432p401r_gcc.c startup_msp432p401r_gcc.c system_msp432p401r.c main.c memory.c
+SOURCES = main.c memory.c
 # Add your include paths to this variable
-INCLUDES = -I/home/ecee/MonibSaadi_Coursera_ES_C1_A2/m2/include/common -I/home/ecee/MonibSaadi_Coursera_ES_C1_A2/m2 -I/home/ecee/MonibSaadi_Coursera_ES_C1_A2/m2/include/msp432 -I/home/ecee/MonibSaadi_Coursera_ES_C1_A2/m2/include/CMSIS -I/home/ecee/MonibSaadi_Coursera_ES_C1_A2/m2 
-
+INCLUDES = -I../include/common -I../include/CMSIS -I../include/msp432
